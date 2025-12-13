@@ -1,0 +1,22 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "type": "module",
+  
+  
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksandrVertebnyi/goit-node-cli.git"
+  },
+  "keywords": [],
+  "author": "Oleksandr_Vertebnyi <sash1983direct@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksandrVertebnyi/goit-node-cli/issues"
+  },
+  "homepage": "https://github.com/OleksandrVertebnyi/goit-node-cli#readme"
+}
