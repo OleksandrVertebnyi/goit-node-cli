@@ -1,22 +1,20 @@
 {
   "name": "goit-node-cli",
   "version": "1.0.0",
+  "description": "Contacts CLI application",
   "type": "module",
-  
-  
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OleksandrVertebnyi/goit-node-cli.git"
-  },
-  "keywords": [],
-  "author": "Oleksandr_Vertebnyi <sash1983direct@gmail.com>",
+  "keywords": [
+    "nodejs",
+    "cli",
+    "contacts"
+  ],
+  "author": "Oleksandr Vertebnyi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OleksandrVertebnyi/goit-node-cli/issues"
-  },
-  "homepage": "https://github.com/OleksandrVertebnyi/goit-node-cli#readme"
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
 }
