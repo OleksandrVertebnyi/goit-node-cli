@@ -10,11 +10,11 @@ import {
 const program = new Command();
 
 program
-    .option('--action <type>', 'choose action')
-    .option('--id <type>', 'contact id')
-    .option('--name <type>', 'contact name')
-    .option('--email <type>', 'contact email')
-    .option('--phone <type>', 'contact phone');
+    .option("-a, --action <type>", "action to perform")
+    .option("-i, --id <id>", "contact id")
+    .option("-n, --name <name>", "contact name")
+    .option("-e, --email <email>", "contact email")
+    .option("-p, --phone <phone>", "contact phone");
 
 program.parse(process.argv);
 

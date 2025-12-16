@@ -4,5 +4,11 @@
     "name": "Mango",
     "email": "mango@mail.com",
     "phone": "322-22-22"
+  },
+  {
+    "id": "259ad8c7-8390-4409-a4fc-5bd8e260b27e",
+    "name": "Alex",
+    "email": "alex@mail.com",
+    "phone": "380000000"
   }
 ]
